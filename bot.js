@@ -30,5 +30,12 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
   }
  });
 
+client.on('ready', async() => {
+var server = "508292167379451915"; // ايدي السررفر
+var channel = "508292414729879563";//ايدي الروم
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , **')
+    },305);
+})
  
 client.login(process.env.BOT_TOKEN);

@@ -11,7 +11,7 @@ var server = "508292167379451915"; // ايدي السررفر
 var channel = "508292414729879563";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
-    },305);
+    },400);
 })
 
 client.on('message', message => {
@@ -35,7 +35,7 @@ var server = "508292167379451915"; // ايدي السررفر
 var channel = "508292414729879563";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , **')
-    },305);
+    },400);
 })
 
 client.on('ready', async() => {
@@ -43,7 +43,7 @@ var server = "508292167379451915"; // ايدي السررفر
 var channel = "508292414729879563";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , **')
-    },305);
+    },400);
 })
 
 client.on('ready', async() => {
@@ -51,7 +51,7 @@ var server = "508292167379451915"; // ايدي السررفر
 var channel = "508292414729879563";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , **')
-    },305);
+    },400);
 })
 
 client.on('ready', async() => {
@@ -59,7 +59,7 @@ var server = "508292167379451915"; // ايدي السررفر
 var channel = "508292414729879563";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('**YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , **')
-    },305);
+    },400);
 })
 
 client.login(process.env.BOT_TOKEN);

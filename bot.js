@@ -30,36 +30,4 @@ if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('
   }
  });
 
-client.on('ready', async() => {
-var server = "508292167379451915"; // ايدي السررفر
-var channel = "515659112101707776";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , Mohamed , **')
-    },400);
-})
-
-client.on('ready', async() => {
-var server = "508292167379451915"; // ايدي السررفر
-var channel = "515659112101707776";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , Mido , **')
-    },400);
-})
-
-client.on('ready', async() => {
-var server = "508292167379451915"; // ايدي السررفر
-var channel = "515659112101707776";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , PoWeR , **')
-    },400);
-})
-
-client.on('ready', async() => {
-var server = "508292167379451915"; // ايدي السررفر
-var channel = "515659112101707776";//ايدي الروم
-    setInterval(()=>{
-    client.guilds.get(server).channels.get(channel).send('**YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , YouTube , **')
-    },400);
-})
-
 client.login(process.env.BOT_TOKEN);
